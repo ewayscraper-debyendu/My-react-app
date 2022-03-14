@@ -13,22 +13,24 @@ import UseEffectApi from './components/pages/UseEffectApi';
 function App() {
   return (
     <>
+      <div style={{textAlign: "center"}} >
       
-      {/* <Header />
         <Router>
+        <Header />
           <Routes>
             <Route exact  path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<Error/>}/>
           </Routes>
+          <Footer />
         </Router>
-      <Footer /> */}
      
+      </div>
 
      {/* <Axiosapi /> */}
 
-     <UseEffectApi/>
+     {/* <UseEffectApi/> */}
 
     </>
     // <div className="App">
