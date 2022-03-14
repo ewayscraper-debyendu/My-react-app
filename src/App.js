@@ -7,21 +7,29 @@ import Home from './components/pages/Home';
 import About from './components/pages/About';
 import Error from './components/pages/Error';
 import Contact from './components/pages/Contact';
+import Axiosapi from './components/pages/Axiosapi';
+import UseEffectApi from './components/pages/UseEffectApi';
 
 function App() {
   return (
     <>
-      <Header />
+      
+      {/* <Header />
         <Router>
           <Routes>
             <Route exact  path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
-            {/* <Route exact path="/recovery-password" element={<RecoveryPassword/>}/> */}
             <Route path="*" element={<Error/>}/>
           </Routes>
         </Router>
-      <Footer />
+      <Footer /> */}
+     
+
+     {/* <Axiosapi /> */}
+
+     <UseEffectApi/>
+
     </>
     // <div className="App">
     //   <header className="App-header">
