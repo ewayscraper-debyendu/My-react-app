@@ -9,11 +9,15 @@ import Error from './components/pages/Error';
 import Contact from './components/pages/Contact';
 import Axiosapi from './components/pages/Axiosapi';
 import UseEffectApi from './components/pages/UseEffectApi';
+import Login from './components/pages/Login';
+import Register from './components/pages/Register';
+import FormValidation from './components/pages/FormValidation';
+import FormValidationTouch from './components/pages/FormValidationTouch';
 
 function App() {
   return (
     <>
-      <div style={{textAlign: "center"}} >
+      {/* <div style={{textAlign: "center"}} >
       
         <Router>
         <Header />
@@ -26,11 +30,15 @@ function App() {
           <Footer />
         </Router>
      
-      </div>
-
+      </div> */}
+     {/* <FormValidation /> */}
+     <FormValidationTouch/>
      {/* <Axiosapi /> */}
 
      {/* <UseEffectApi/> */}
+
+     {/* <Login /> */}
+     {/* <Register/> */}
 
     </>
     // <div className="App">
